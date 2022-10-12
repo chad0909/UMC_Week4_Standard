@@ -17,6 +17,9 @@
 		E58754D728F6423000712035 /* UMC_Week4_StandardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58754D628F6423000712035 /* UMC_Week4_StandardTests.swift */; };
 		E58754E128F6423000712035 /* UMC_Week4_StandardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58754E028F6423000712035 /* UMC_Week4_StandardUITests.swift */; };
 		E58754E328F6423000712035 /* UMC_Week4_StandardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58754E228F6423000712035 /* UMC_Week4_StandardUITestsLaunchTests.swift */; };
+		E58754F128F6450E00712035 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58754EF28F6450E00712035 /* TableViewCell.swift */; };
+		E58754F228F6450E00712035 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E58754F028F6450E00712035 /* TableViewCell.xib */; };
+		E58754F428F6547500712035 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58754F328F6547500712035 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		E58754DC28F6423000712035 /* UMC_Week4_StandardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMC_Week4_StandardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58754E028F6423000712035 /* UMC_Week4_StandardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC_Week4_StandardUITests.swift; sourceTree = "<group>"; };
 		E58754E228F6423000712035 /* UMC_Week4_StandardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC_Week4_StandardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E58754EF28F6450E00712035 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E58754F028F6450E00712035 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		E58754F328F6547500712035 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				E58754CA28F6423000712035 /* LaunchScreen.storyboard */,
 				E58754CD28F6423000712035 /* Info.plist */,
 				E58754C528F6422F00712035 /* UMC_Week4_Standard.xcdatamodeld */,
+				E58754EF28F6450E00712035 /* TableViewCell.swift */,
+				E58754F028F6450E00712035 /* TableViewCell.xib */,
+				E58754F328F6547500712035 /* MemoViewController.swift */,
 			);
 			path = UMC_Week4_Standard;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58754CC28F6423000712035 /* LaunchScreen.storyboard in Resources */,
+				E58754F228F6450E00712035 /* TableViewCell.xib in Resources */,
 				E58754C928F6423000712035 /* Assets.xcassets in Resources */,
 				E58754C428F6422F00712035 /* Main.storyboard in Resources */,
 			);
@@ -261,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58754F128F6450E00712035 /* TableViewCell.swift in Sources */,
 				E58754C128F6422F00712035 /* ViewController.swift in Sources */,
+				E58754F428F6547500712035 /* MemoViewController.swift in Sources */,
 				E58754BD28F6422F00712035 /* AppDelegate.swift in Sources */,
 				E58754BF28F6422F00712035 /* SceneDelegate.swift in Sources */,
 				E58754C728F6422F00712035 /* UMC_Week4_Standard.xcdatamodeld in Sources */,
